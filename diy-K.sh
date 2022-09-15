@@ -21,10 +21,10 @@ echo "RELEASE_KEY_ALIAS=TVBoxOSC" >>$CURRENT_DIR/$DIR/gradle.properties
 echo "RELEASE_STORE_PASSWORD=TVBoxOSC" >>$CURRENT_DIR/$DIR/gradle.properties
 echo "RELEASE_KEY_PASSWORD=TVBoxOSC" >>$CURRENT_DIR/$DIR/gradle.properties
 #xwalk修复
-#sed -i 's/download.01.org\/crosswalk\/releases\/crosswalk\/android\/maven2/raw.githubusercontent.com\/lm317379829\/TVBoxDIY\/main/g' $CURRENT_DIR/$DIR/build.gradle
+#sed -i 's/download.01.org\/crosswalk\/releases\/crosswalk\/android\/maven2/raw.githubusercontent.com\/2049837863\/TVBoxDIY\/main/g' $CURRENT_DIR/$DIR/build.gradle
 #改名
-sed -i 's/TV猫盒/优TV/g' $CURRENT_DIR/$DIR/app/src/main/res/values/strings.xml
-sed -i 's/TV猫盒/优TV/g' $CURRENT_DIR/$DIR/app/build.gradle
+sed -i 's/TV猫盒/华儿影视/g' $CURRENT_DIR/$DIR/app/src/main/res/values/strings.xml
+sed -i 's/TV猫盒/华儿影视/g' $CURRENT_DIR/$DIR/app/build.gradle
 #背景修改
 mv $CURRENT_DIR/DIY/app_bg.png $CURRENT_DIR/$DIR/app/src/main/res/drawable/app_bg.png
 #图标修改
